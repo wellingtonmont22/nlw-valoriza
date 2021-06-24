@@ -1,13 +1,14 @@
-import "reflect-metadata";
-import express from "express";
+import "reflect-metadata"
+import express from "express"
+
+import { router } from "./routes"
 
 import "./database"
 
-const app = express();
+const app = express()
 
-app.get("/test", (request, response) => {
-    return response.send("Olá");
-});
+app.use(express.json())
+app.use(router)
 
 
-app.listen(5000, () => console.log("Rodando..."));
+app.listen(5000, () => console.log("Server is running..."))
