@@ -10,9 +10,9 @@
 
 - Cadastro de TAG
 
-    [ ] Não é permitido cadastrar mais de uma tag com o mesmo nome.
+    [ x ] Não é permitido cadastrar mais de uma tag com o mesmo nome.
 
-    [ ] Não é permitido cadastrar tag sem nomente.
+    [ x ] Não é permitido cadastrar tag sem nomente.
 
     [ ] Não é permitido cadastro por usuários que não sejam administradores.
 
