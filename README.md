@@ -18,11 +18,11 @@
 
 - Cadastro de elogíos
 
-    [ ] Não é permitido cadastrar um elogio para si.
+    [ x ] Não é permitido cadastrar um elogio para si.
 
-    [ ] Não é permitido cadastrar elogíos para usuários inválidos.
+    [ x ] Não é permitido cadastrar elogíos para usuários inválidos.
 
-    [ ] Usuário precisa estar autenticado na aplicação.
+    [ x ] Usuário precisa estar autenticado na aplicação.
 
 
 # MÉTODOS HTTP
