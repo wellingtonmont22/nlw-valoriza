@@ -47,7 +47,7 @@ export class CreateCompliments1624735337435 implements MigrationInterface {
                         name: "FKUserReceiverCompliments",
                         referencedTableName: "users",
                         referencedColumnNames: ["id"],
-                        columnNames: ["user_sender"],
+                        columnNames: ["user_receiver"],
                         onDelete: "SET NULL",
                         onUpdate: "SET NULL"
                     },
